@@ -1,9 +1,10 @@
-import { View, Text, Image } from "react-native"
+import { View, Text, Image,  TouchableOpacity } from "react-native"
 
 
 export const User = ({ data }) => {
     return (
-        <View style={{
+<TouchableOpacity onPress={() => {alert(data.id)}}>
+<View style={{
             width: "90%",
             height: 80,
             flexDirection: "row",
@@ -39,6 +40,7 @@ export const User = ({ data }) => {
                 </View>
             </View>
         </View>
+</TouchableOpacity>
     )
 }
 
