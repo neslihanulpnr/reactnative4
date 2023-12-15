@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import { User } from './User';
+import { UserList } from './UserList';
 
 export default function App() {
   return (
     <View style={styles.container}> 
       <StatusBar style="auto" />
 
-<User/>
+<UserList/>
 
     </View>
   );
