@@ -17,3 +17,12 @@ export const Btn = ({ text, color}) => {
 }
 
 export default Btn;
+// bunu app.jsa yaz
+<ScrollView>
+<Btn color={"blue"} text={"TEXT1"}/>
+<Btn color={"purple"} text={"TEXT2"}/>
+<Btn color={"pink"} text={"TEXT3"}/>
+<Btn color={"yellow"} text={"TEXT4"}/>
+<Btn color={"lightgrey"} text={"TEXT5"}/>
+<Btn color={"red"} text={"TEXT6"}/>
+</ScrollView>
