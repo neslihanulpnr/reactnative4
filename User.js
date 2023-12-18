@@ -6,7 +6,7 @@ export const User = ({ data }) => {
 <TouchableOpacity onPress={() => {alert(data.id)}}>
 <View style={{
             width: "90%",
-            height: 80,
+            height: 70,
             flexDirection: "row",
             padding: 5,
             margin: 3
