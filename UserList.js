@@ -17,7 +17,7 @@ export const UserList = () => {
         })();
     }, [])
     return (
-        <View style={{ width: "90%" }}>
+        <View style={{ width: "90%", height: "90%"}}>
             {loading ? (
                 <ActivityIndicator size={"large"} color={"#0D66FF"} />
             ) : (
@@ -30,3 +30,4 @@ export const UserList = () => {
         </View>
     )
 }
+export default UserList;

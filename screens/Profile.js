@@ -1,9 +1,10 @@
 import { Text, View } from "react-native"
 
-export const Peofile = () => {
+export const Profile = () => {
     return(
         <View>
             <Text>Profile</Text>
         </View>
     )
 }
+export default Profile;
