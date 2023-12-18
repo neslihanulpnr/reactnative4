@@ -6,7 +6,7 @@ export const User = ({ data }) => {
     const nav = useNavigation();
 
     return (
-        <TouchableOpacity onPress={() => nav.navigate("Profile", { userID: data.id })}>
+        <TouchableOpacity onPress={() => nav.navigate("profile", { userID: data.id })}>
             <View style={{
                 width: "90%",
                 height: 70,
